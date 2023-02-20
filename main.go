@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.con/KlarkGames/GoLearning/greeting"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	fmt.Println(greeting.Greeting("Alex"))
 }
